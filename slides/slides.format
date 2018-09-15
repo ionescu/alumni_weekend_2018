@@ -68,3 +68,5 @@
 %format trg                     =  "\triangle"
 %format rct                     =  "\Box"
 %format nnot                    =  "\textit{not}"
+%format redvuln                 =  "{\color{red}vulnerability}"
+%format vier                    =  "{\color{red}\textit{4}}"

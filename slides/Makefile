@@ -3,7 +3,8 @@ NAME=slides
 default: $(NAME).pdf
 
 $(NAME).pdf:  $(NAME).tex
-	latexmk -pdf $(NAME).tex
+#	latexmk -pdf $(NAME).tex
+	lualatex $(NAME).tex
 
 $(NAME).tex: $(NAME).lagda $(NAME).format dslmagda.fmt # $(NAME).bib
 	lhs2TeX --agda $(NAME).lagda > $(NAME).tex
