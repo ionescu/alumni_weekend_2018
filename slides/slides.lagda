@@ -245,13 +245,13 @@ Patterns of \emph{systems building}:
 
 
 \begin{frame}
-\frametitle{Law of conservation of errors}
+\frametitle{``Law'' of conservation of errors}
 \vfill
 We have better programing languages, better tools, better training, better processes.
 \vfill
 However, the systems we build seem to have (at least) as many bugs as those of the past.
 \vfill
-\emph{Law of conservation of programming errors}: program complexity
+\emph{``Law'' of conservation of programming errors}: program complexity
 increases faster than our ability to control complexity.
 \vfill
 \end{frame}
@@ -1654,21 +1654,6 @@ There are many sources of examples of ``current usage'', due to ubiquity of comp
 \end{document}
 
 
-\begin{frame}
-\frametitle{Better tools}
-\vfill
-Usually, this involves the introduction of new types and new functions
-
-Example:
-\begin{itemize}
-\item neural network (feed-forward, deep, convolutional, recurrent, etc.)
-\item functions that query the state of the network and give us the output for given inputs
-\item functions that "train" the network
-\end{itemize}
-
-\vfill
-\end{frame}
-
 %% -------------------------------------------------------------------
 
 Alas, by 1975 Dijkstra had already formed the dogmatic opinion that
@@ -1680,51 +1665,16 @@ in programs that were too large to be proven mathematically
 correct. (This pretty much ruled out any program of more than a couple
 of pages).
 
-``Notes On Structured Programming'' (EWD249)}
-
    ``A Programmer's Story: The Life of a Computer Pioneer''}
+
+``Notes On Structured Programming'' (EWD249)}
 
     
 
+    Notes after questions:
 
-
-
-
-Although it is impossible to determine the precise functional
-relationships that include all of the stressors and variables of
-concern, analysis based on simple theoretical models and multivariate
-regressions from empirical data can provide valuable information about
-critical relationships that can be applied in this measure.
-
-
-%% -------------------------------------------------------------------
-
-\begin{frame}
-\frametitle{Further work}
-\vfill
-resilience, avoidability, reachability
-
-\vfill
-
-key concept: monadic dynamical system
-
-\vfill
-generic representation of sequential decision problems
-\vfill
-\end{frame}
-
-\section{Conclusions}
-
-\begin{frame}
-\frametitle{Previous examples}
-\vfill
-\begin{itemize}
-\item Andr\'e Weil
-\item Joseph Goguen
-\item Noah Chomsky
-\end{itemize}
-\vfill
-\end{frame}
-
-%% -------------------------------------------------------------------
-
+    - a good suggestion from the audience: formalise ``transparency'';
+    does it conflict with ``privacy''?
+    
+    - a helpful analogy: formalisation is making the rules of the game
+    explicit
